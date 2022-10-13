@@ -1,4 +1,7 @@
 package edu.esprit.university.repositories;
 
-public interface DetailEquipeRepository extends edu.esprit.university.lib.AbstractRepository<edu.esprit.university.entities.DetailEquipe> {
+import edu.esprit.university.entities.DetailEquipe;
+import edu.esprit.university.lib.AbstractRepository;
+
+public interface DetailEquipeRepository extends AbstractRepository<DetailEquipe> {
 }
